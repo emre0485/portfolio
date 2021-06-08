@@ -2,17 +2,85 @@ body {
   background-color: blue;
 }
 
-/****** EMRE JULIUS BASH DURAMAN *******/
+
+/***************** COMPUTER VERSION ***************/
+
+/***** EMRE JULIUS BASH DURAMAN ******/
+
+@media (min-width: 700px) {
+
+img {
+  width: 15%;
+  height: auto;
+}
 
 h1 {
   color: white;
   font-family: "Source sans pro";
   font-weight: 900;
   letter-spacing: 1px;
-  font-size: 5vw;
+  font-size: 4vw;
+  line-height: 45px;
 }
 
 .mellemnavn {
   font-weight: 400;
   font-family: "Source sans pro";
+}
+
+
+h2 {
+  display: none;
+  color: white;
+  font-family: "Source sans pro";
+  font-weight: 900;
+  letter-spacing: 1px;
+  font-size: 40px;
+  line-height: 45px;
+}
+.mellemnavn_mobil {
+  display: none;
+  font-weight: 400;
+  font-family: "Source sans pro";
+}
+
+}
+
+/***************** MOBIL VERSION ********************/
+
+@media (max-width: 700px) {
+  /***** EMRE JULIUS BASH DURAMAN ******/
+
+  img {
+    width: 15%;
+    height: auto;
+  }
+
+  h1 {
+    display: none;
+    color: white;
+    font-family: "Source sans pro";
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 4vw;
+    line-height: 45px;
+  }
+
+  .mellemnavn {
+    display: none;
+    font-weight: 400;
+    font-family: "Source sans pro";
+  }
+  h2 {
+    color: white;
+    font-family: "Source sans pro";
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .mellemnavn_mobil {
+    font-weight: 400;
+    font-family: "Source sans pro";
+  }
 }
