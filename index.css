@@ -1,14 +1,16 @@
-body {
-  background-color: blue;
-}
-
-/***************** COMPUTER VERSION ***************/
-
-/***** EMRE JULIUS BASH DURAMAN ******/
+/********************************************************** COMPUTER VERSION ***************/
 
 @media (min-width: 700px) {
-  img {
-    width: 15%;
+  body {
+    background-color: #0032FF;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  /***** EMRE JULIUS BASH DURAMAN ******/
+
+  #header_container img {
+    width: 8%;
     height: auto;
   }
 
@@ -19,6 +21,7 @@ body {
     letter-spacing: 1px;
     font-size: 4vw;
     line-height: 4vw;
+    display: inline-block;
   }
 
   .mellemnavn {
@@ -40,17 +43,27 @@ body {
     font-weight: 400;
     font-family: "Source sans pro";
   }
+
+  #profil_billede img {
+    border: 7px solid white;
+    width: 20%;
+    height: auto;
+  }
 }
 
-/***************** MOBIL VERSION ********************/
+/********************************************************** MOBIL VERSION ********************/
 
 @media (max-width: 700px) {
+  body {
+    background-color: #0032FF;
+  }
+
   /***** EMRE JULIUS BASH DURAMAN ******/
 
   img {
     width: 50px;
     height: auto;
-    position: fixed;
+    position: static;
   }
 
   h1 {
@@ -86,5 +99,10 @@ body {
     font-weight: 300;
     font-family: "Source sans pro";
     transform: rotate(-90deg);
+  }
+
+  #profil_billede img {
+    border: 4px solid white;
+    position: static;
   }
 }
