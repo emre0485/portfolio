@@ -9,6 +9,13 @@
 
   /***** EMRE JULIUS BASH DURAMAN ******/
 
+
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+  }
+
   #header_container img {
     width: 8%;
     height: auto;
@@ -48,7 +55,11 @@
     border: 7px solid white;
     width: 20%;
     height: auto;
-  }
+    position: relative;
+    top: 99px;
+    left: 147px;
+}
+    
 }
 
 /********************************************************** MOBIL VERSION ********************/
@@ -60,7 +71,13 @@
 
   /***** EMRE JULIUS BASH DURAMAN ******/
 
-  img {
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+  }
+
+  #header_container img {
     width: 50px;
     height: auto;
     position: static;
@@ -103,6 +120,11 @@
 
   #profil_billede img {
     border: 4px solid white;
-    position: static;
+    position: relative;
+    top: 99px;
+    left: 22px;
+    width: 40%;
+    height: auto;
+ 
   }
 }
