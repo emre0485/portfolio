@@ -56,15 +56,21 @@
     width: 20%;
     height: auto;
     position: relative;
-    top: 99px;
-    left: 147px;
+    top: 200px;
+    left: 150px;
 }
 
-footer {
-  padding-top: 100vh;
+footer {    
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 31px;
+  line-height: 5px;
+  margin-top: 40vw;
   display: inline-block;
-  
-  }
+  text-decoration: none;
+}
     
 }
 
@@ -134,7 +140,7 @@ footer {
     height: auto;
 }
  
-  }
+
 
 footer {    
   color: white;
@@ -143,9 +149,9 @@ footer {
   letter-spacing: 1px;
   font-size: 31px;
   line-height: 5px;
-  margin-top: 80vh;
+  margin-top: 100vw;
   display: inline-block;
   text-decoration: none;
-
+}
 
 }
