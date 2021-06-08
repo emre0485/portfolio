@@ -7,7 +7,7 @@
     margin-right: 100px;
   }
 
-  /***** EMRE JULIUS BASH DURAMAN ******/
+  /***** emre julius bash duraman ******/
 
 
   header {
@@ -60,16 +60,47 @@
     left: 150px;
 }
 
+/******************************* footer **************************/
+
 footer {    
   color: white;
+  margin-top: 100vw;
+  display: grid;
+
+}
+
+#footer_call {
+  color: white;
   font-family: 'Times New Roman', Times, serif;
-  font-weight: 700;
-  letter-spacing: 1px;
-  font-size: 31px;
-  line-height: 5px;
-  margin-top: 40vw;
+  font-weight: 100;
+  font-size: 2.5rem;
   display: inline-block;
-  text-decoration: none;
+
+
+}
+
+#footer_nummer {
+
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 1000;
+  letter-spacing: 1px;
+  font-size: 3.2rem;
+  display: inline-block;
+
+}
+
+#footer_signatur img {
+
+  width: 40%;
+  height: auto;
+
+}
+
+
+#footer_signatur p {
+
+  color: #E44200;
 }
     
 }
@@ -81,7 +112,7 @@ footer {
     background-color: #0032FF;
   }
 
-  /***** EMRE JULIUS BASH DURAMAN ******/
+  /***** emre julius bash duraman ******/
 
   header {
     position: fixed;
@@ -135,23 +166,51 @@ footer {
     border: 9px solid white;
     position: relative;
     top: 266px;
-    left: 35px;
+    left: 111px;
     width: 40%;
     height: auto;
 }
  
-
+/******************************* footer **************************/
 
 footer {    
   color: white;
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: 700;
-  letter-spacing: 1px;
-  font-size: 31px;
-  line-height: 5px;
   margin-top: 100vw;
+  display: grid;
+}
+
+#footer_call {
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 100;
+  font-size: 2.5rem;
   display: inline-block;
-  text-decoration: none;
+
+
+}
+
+#footer_nummer {
+
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 1000;
+  letter-spacing: 1px;
+  font-size: 3.2rem;
+  display: inline-block;
+
+}
+
+#footer_signatur img {
+
+
+  width: 40%;
+  height: auto;
+
+}
+
+#footer_signatur p {
+
+  color: #E44200;
 }
 
 }
