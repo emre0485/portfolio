@@ -2,48 +2,44 @@ body {
   background-color: blue;
 }
 
-
 /***************** COMPUTER VERSION ***************/
 
 /***** EMRE JULIUS BASH DURAMAN ******/
 
 @media (min-width: 700px) {
+  img {
+    width: 15%;
+    height: auto;
+  }
 
-img {
-  width: 15%;
-  height: auto;
-}
+  h1 {
+    color: white;
+    font-family: "Source sans pro";
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 4vw;
+    line-height: 4vw;
+  }
 
-h1 {
-  color: white;
-  font-family: "Source sans pro";
-  font-weight: 900;
-  letter-spacing: 1px;
-  font-size: 4vw;
-  line-height: 4vw;
-}
+  .mellemnavn {
+    font-weight: 400;
+    font-family: "Source sans pro";
+  }
 
-.mellemnavn {
-  font-weight: 400;
-  font-family: "Source sans pro";
-}
-
-
-h2 {
-  display: none;
-  color: white;
-  font-family: "Source sans pro";
-  font-weight: 900;
-  letter-spacing: 1px;
-  font-size: 40px;
-  line-height: 45px;
-}
-.mellemnavn_mobil {
-  display: none;
-  font-weight: 400;
-  font-family: "Source sans pro";
-}
-
+  h2 {
+    display: none;
+    color: white;
+    font-family: "Source sans pro";
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .mellemnavn_mobil {
+    display: none;
+    font-weight: 400;
+    font-family: "Source sans pro";
+  }
 }
 
 /***************** MOBIL VERSION ********************/
@@ -52,7 +48,7 @@ h2 {
   /***** EMRE JULIUS BASH DURAMAN ******/
 
   img {
-    width: 15%;
+    width: 50px;
     height: auto;
   }
 
@@ -71,16 +67,23 @@ h2 {
     font-weight: 400;
     font-family: "Source sans pro";
   }
+
   h2 {
     color: white;
     font-family: "Source sans pro";
-    font-weight: 900;
+    font-weight: 700;
     letter-spacing: 1px;
-    font-size: 40px;
+    font-size: 63px;
     line-height: 45px;
+    transform: rotate(90deg);
+    position: fixed;
+    top: 68px;
+    left: -38px;
   }
+
   .mellemnavn_mobil {
-    font-weight: 400;
+    font-weight: 300;
     font-family: "Source sans pro";
+    transform: rotate(-90deg);
   }
 }
