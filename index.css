@@ -50,6 +50,7 @@ body {
   img {
     width: 50px;
     height: auto;
+    position: fixed;
   }
 
   h1 {
