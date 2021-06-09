@@ -7,10 +7,21 @@
 
   #profil_billede img {
     height: auto;
-    width: 35%;
-    left: 8vw;
-    position: relative;
-    top: -1vw;
+    width: 70%;
+  }
+
+  #profil_billede a {
+    grid-row: 2;
+    grid-column: 1;
+    font-size: 5.2vw;
+    margin-top: 2vw;
+    text-align: start;
+  }
+
+  #profil_billede {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 
   #cirkel_stjerne img {
@@ -160,7 +171,7 @@
     font-size: 3rem;
   }
 
-  nav a {
+  main a {
     display: none;
   }
 }
