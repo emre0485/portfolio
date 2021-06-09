@@ -102,9 +102,23 @@ footer {
 
   color: #E44200;
 }
+
+/**************************** menu **************************/
+
+nav a, li{
+  color: blue;
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+  font-family: "Josefin Sans";
+  font-size: 3rem;
+}
+
+
     
 }
 
+/********************************************************** COMPUTER VERSION SLUT ********************/
 /********************************************************** MOBIL VERSION ********************/
 
 @media (max-width: 700px) {
@@ -213,4 +227,23 @@ footer {
   color: #E44200;
 }
 
+
+/**************************** menu **************************/
+
+nav a, li{
+  color: blue;
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+  font-family: "Josefin Sans";
+  font-size: 3rem;
 }
+
+
+}
+
+
+
+
+
+/********************************************************** MOBIL VERSION SLUT ********************/
