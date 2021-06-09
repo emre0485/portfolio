@@ -5,20 +5,31 @@
     margin-top: 25vh;
   }
 
-  #profil_billede img {
+  #profil img {
     height: auto;
     width: 70%;
   }
 
-  #profil_billede a {
+  #about {
     grid-row: 2;
     grid-column: 1;
-    font-size: 5.2vw;
+    font-size: 4vw;
     margin-top: 2vw;
     text-align: start;
+    font-family: "Josefin Sans";
   }
 
-  #profil_billede {
+  #portfolio {
+    grid-row: 1;
+    grid-column: 2;
+    font-size: 4vw;
+    margin-top: 2vw;
+    align-content: space-around;
+    display: grid;
+    font-family: "Josefin Sans";
+  }
+
+  #profil {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
@@ -43,7 +54,7 @@
     font-family: "Times New Roman", Times, serif;
     font-size: 3.3vw;
     position: relative;
-    left: 51vw;
+    left: 40vw;
   }
 
   .nummer {
@@ -79,12 +90,9 @@
   /**************************** menu **************************/
 
   a {
-    color: blue;
     text-decoration: none;
     list-style-type: none;
     color: white;
-    font-family: "Josefin Sans";
-    font-size: 3rem;
   }
 }
 
@@ -96,7 +104,7 @@
     margin-top: 25vh;
   }
 
-  #profil_billede img {
+  #profil img {
     width: 80%;
     left: 5vw;
     position: relative;
