@@ -108,12 +108,12 @@
     margin-top: 100vw;
   }
 
-  #footer_call p{
+  #footer_call {
     color: white;
     font-family: "Times New Roman", Times, serif;
     font-weight: 100;
     letter-spacing: 1px;
-    font-size: 2.8rem;
+    font-size: 2.7rem;
     display: inline-block;
     text-align: center;
   }
@@ -123,7 +123,7 @@
     font-family: "Times New Roman", Times, serif;
     font-weight: 1000;
     letter-spacing: 1px;
-    font-size: 3.8rem;
+    font-size: 3.7rem;
     display: inline-block;
   }
 
