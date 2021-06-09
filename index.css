@@ -10,6 +10,7 @@
   }
 
   body {
+    isolation: isolate;
     background-color: #0032ff;
     margin-left: 100px;
     margin-right: 100px;
@@ -22,11 +23,13 @@
     position: fixed;
     top: 0;
     z-index: 99;
+    mix-blend-mode: exclusion;
   }
 
   #header_container img {
     width: 8%;
     height: auto;
+    mix-blend-mode: difference;
   }
 
   h1 {
@@ -133,6 +136,7 @@
 
   body {
     background-color: #0032ff;
+    isolation: isolate;
   }
 
   /***** emre julius bash duraman ******/
@@ -141,6 +145,7 @@
     position: fixed;
     top: 0;
     z-index: 99;
+    mix-blend-mode: exclusion;
   }
 
   #header_container img {
