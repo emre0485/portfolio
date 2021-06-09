@@ -6,7 +6,11 @@
       margin-left: 100px;
       margin-right: 100px;
     }
-  
+    
+    a {
+      text-decoration: none;
+    }
+
     /***** emre julius bash duraman ******/
   
   
