@@ -27,17 +27,14 @@
 
   footer {
     color: white;
-    margin-top: 25vw;
   }
 
   #footer_call {
     color: white;
     font-family: "Times New Roman", Times, serif;
-    font-weight: 0;
-    font-size: 3.37vw;
+    font-size: 3.3vw;
     position: relative;
-    left: 44vw;
-    top: -17vw;
+    left: 51vw;
   }
 
 .nummer {
@@ -58,6 +55,7 @@
     position: relative;
     text-align: center;
     right: 29vw;
+    top: 15vw;
   }
 
   .center {
@@ -117,19 +115,23 @@
     color: white;
     font-family: "Times New Roman", Times, serif;
     font-weight: 100;
-    font-size: 2.5rem;
+    font-size: 10vw;
     display: inline-block;
+    text-align: center;
   }
 
-  #footer_nummer {
+  .nummer {
     color: white;
     font-family: "Times New Roman", Times, serif;
     font-weight: 1000;
     letter-spacing: 1px;
-    font-size: 3.2rem;
+    font-size: 13.7vw;
     display: inline-block;
   }
 
+
+
+  
   #footer_signatur img {
     width: 100%;
     height: auto;
