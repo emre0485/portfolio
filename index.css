@@ -1,7 +1,6 @@
 /********************************************************** COMPUTER VERSION ***************/
 
 @media (min-width: 700px) {
-
   * {
     box-sizing: border-box;
   }
@@ -14,6 +13,7 @@
     background-color: #0032ff;
     margin-left: 100px;
     margin-right: 100px;
+    overflow-x: hidden;
   }
 
   /***** emre julius bash duraman ******/
@@ -93,7 +93,6 @@
     display: inline-block;
   }
 
-
   #footer_signatur img {
     width: 33%;
     height: auto;
@@ -126,14 +125,12 @@
     font-family: "Josefin Sans";
     font-size: 3rem;
   }
-  
 }
 
 /********************************************************** COMPUTER VERSION SLUT ********************/
 /********************************************************** MOBIL VERSION ********************/
 
 @media (max-width: 700px) {
-
   * {
     box-sizing: border-box;
   }
@@ -197,8 +194,34 @@
     position: relative;
     top: 266px;
     left: 111px;
-    width: 40%;
+    width: 195px;
     height: auto;
+  }
+
+  /******************************* cirkler *************************/
+
+  .element_1 img {
+    width: 60px;
+    height: auto;
+  }
+
+  .element_1 {
+    position: relative;
+    left: 77px;
+    top: -20px;
+  }
+
+  .element_2 img {
+
+    width: 150px;
+    height: auto;
+
+  }
+
+  .element_2 {
+    position: relative;
+    left: 265px;
+    top: -180px;
   }
 
   /******************************* footer **************************/
