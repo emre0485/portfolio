@@ -1,14 +1,18 @@
 /********************************************************** COMPUTER VERSION ***************/
 
 @media (min-width: 700px) {
+
+  * {
+    box-sizing: border-box;
+  }
+
   body {
-    background-color: #0032FF;
+    background-color: #0032ff;
     margin-left: 100px;
     margin-right: 100px;
   }
 
   /***** emre julius bash duraman ******/
-
 
   header {
     position: fixed;
@@ -58,72 +62,80 @@
     position: relative;
     top: 200px;
     left: 150px;
-}
+  }
 
-/******************************* footer **************************/
+  /******************************* footer **************************/
 
-footer {    
-  color: white;
-  margin-top: 100vw;
-  display: grid;
+  footer {
+    color: white;
+    margin-top: 30vw;
+    display: grid;
+  }
 
-}
+  #footer_call {
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 100;
+    font-size: 2.5rem;
+    display: inline-block;
+  }
 
-#footer_call {
-  color: white;
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: 100;
-  font-size: 2.5rem;
-  display: inline-block;
-
-
-}
-
-#footer_nummer {
-
-  color: white;
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: 1000;
-  letter-spacing: 1px;
-  font-size: 3.2rem;
-  display: inline-block;
-
-}
-
-#footer_signatur img {
-
-  width: 40%;
-  height: auto;
-
-}
+  #footer_nummer {
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 1000;
+    letter-spacing: 1px;
+    font-size: 3.2rem;
+    display: inline-block;
+  }
 
 
-#footer_signatur p {
+  #footer_signatur img {
+    width: 33%;
+    height: auto;
+  }
 
-  color: #E44200;
-}
+  #footer_signatur {
+    position: relative;
+    text-align: center;
+    right: 29vw;
+  }
 
-/**************************** menu **************************/
+  .center {
+    color: #e44200;
+    font-size: 3.4vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
 
-nav a, li{
-  color: blue;
-  text-decoration: none;
-  list-style-type: none;
-  color: white;
-  font-family: "Josefin Sans";
-  font-size: 3rem;
-}
+  /**************************** menu **************************/
 
-
-    
+  nav a,
+  li {
+    color: blue;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    font-family: "Josefin Sans";
+    font-size: 3rem;
+  }
+  
 }
 
 /********************************************************** COMPUTER VERSION SLUT ********************/
 /********************************************************** MOBIL VERSION ********************/
 
 @media (max-width: 700px) {
+
+  * {
+    box-sizing: border-box;
+  }
+  
   body {
-    background-color: #0032FF;
+    background-color: #0032ff;
   }
 
   /***** emre julius bash duraman ******/
@@ -183,67 +195,64 @@ nav a, li{
     left: 111px;
     width: 40%;
     height: auto;
+  }
+
+  /******************************* footer **************************/
+
+  footer {
+    color: white;
+    margin-top: 100vw;
+    display: grid;
+  }
+
+  #footer_call {
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 100;
+    font-size: 2.5rem;
+    display: inline-block;
+  }
+
+  #footer_nummer {
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 1000;
+    letter-spacing: 1px;
+    font-size: 3.2rem;
+    display: inline-block;
+  }
+
+  #footer_signatur img {
+    width: 100%;
+    height: auto;
+  }
+
+  #footer_signatur {
+    position: relative;
+    text-align: center;
+  }
+
+  .center {
+    color: #e44200;
+    font-size: 12vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+
+  /**************************** menu **************************/
+
+  nav a,
+  li {
+    color: blue;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    font-family: "Josefin Sans";
+    font-size: 3rem;
+  }
 }
- 
-/******************************* footer **************************/
-
-footer {    
-  color: white;
-  margin-top: 100vw;
-  display: grid;
-}
-
-#footer_call {
-  color: white;
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: 100;
-  font-size: 2.5rem;
-  display: inline-block;
-
-
-}
-
-#footer_nummer {
-
-  color: white;
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: 1000;
-  letter-spacing: 1px;
-  font-size: 3.2rem;
-  display: inline-block;
-
-}
-
-#footer_signatur img {
-
-
-  width: 40%;
-  height: auto;
-
-}
-
-#footer_signatur p {
-
-  color: #E44200;
-}
-
-
-/**************************** menu **************************/
-
-nav a, li{
-  color: blue;
-  text-decoration: none;
-  list-style-type: none;
-  color: white;
-  font-family: "Josefin Sans";
-  font-size: 3rem;
-}
-
-
-}
-
-
-
-
 
 /********************************************************** MOBIL VERSION SLUT ********************/
