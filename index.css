@@ -106,6 +106,7 @@
   footer {
     color: white;
     margin-top: 100vw;
+    display: grid;
   }
 
   #footer_call {
