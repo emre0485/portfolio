@@ -59,13 +59,9 @@
     font-family: "Source sans pro";
   }
 
-  .profil_billede img {
-    border: 7px solid white;
-    width: 20%;
+  #profil_billede img {
     height: auto;
-    position: relative;
-    top: 200px;
-    left: 150px;
+    width: 35%;
   }
 
   /******************************* footer **************************/
@@ -189,28 +185,12 @@
     transform: rotate(-90deg);
   }
 
-  .profil_billede img {
-    border: 9px solid white;
-    position: relative;
-    top: 16.625rem;
-    left: 6.188rem;
-    width: 29vh;
+  #profil_billede img {
     height: auto;
+    width: 80%;
   }
 
   /******************************* cirkler *************************/
-
-  .element_1 img {
-    width: 6vh;
-    height: auto;
-  }
-
-  .element_1 {
-    position: relative;
-    left: 4.625rem;
-    top: -0.75rem;
-  }
-
 
   /******************************* footer **************************/
 
