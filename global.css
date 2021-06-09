@@ -21,7 +21,7 @@
       position: fixed;
       top: 0;
       z-index: 99;
-      mix-blend-mode: exclusion;
+      mix-blend-mode: difference;
     }
   
     #header_container img {
@@ -78,7 +78,7 @@
       position: fixed;
       top: 0;
       z-index: 99;
-      mix-blend-mode: exclusion;
+      mix-blend-mode: difference;
     }
   
     #header_container img {
