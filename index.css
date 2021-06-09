@@ -1,3 +1,5 @@
+
+
 /********************************************************** COMPUTER VERSION ***************/
 
 @media (min-width: 700px) {
@@ -25,26 +27,27 @@
 
   footer {
     color: white;
-    margin-top: 30vw;
-    display: grid;
+    margin-top: 25vw;
   }
 
   #footer_call {
     color: white;
     font-family: "Times New Roman", Times, serif;
-    font-weight: 100;
-    font-size: 2.5rem;
-    display: inline-block;
+    font-weight: 0;
+    font-size: 3.37vw;
+    position: relative;
+    left: 44vw;
+    top: -17vw;
   }
 
-  #footer_nummer {
-    color: white;
-    font-family: "Times New Roman", Times, serif;
-    font-weight: 1000;
-    letter-spacing: 1px;
-    font-size: 3.2rem;
-    display: inline-block;
-  }
+.nummer {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 1000;
+  letter-spacing: 1px;
+  font-size: 4.3vw;
+}
+
 
   #footer_signatur img {
     width: 33%;
@@ -83,9 +86,14 @@
 /********************************************************** MOBIL VERSION ********************/
 
 @media (max-width: 700px) {
+  #first_section {
+    margin-top: 25vh;
+  }
+
   #profil_billede img {
-    height: auto;
     width: 80%;
+    left: 5vw;
+    position: relative;
   }
 
   #cirkel_stjerne img {
@@ -103,7 +111,6 @@
   footer {
     color: white;
     margin-top: 100vw;
-    display: grid;
   }
 
   #footer_call {
@@ -152,6 +159,10 @@
     color: white;
     font-family: "Josefin Sans";
     font-size: 3rem;
+  }
+
+  nav a {
+    display: none;
   }
 }
 
