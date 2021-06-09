@@ -194,14 +194,14 @@
     position: relative;
     top: 266px;
     left: 111px;
-    width: 195px;
+    width: 24vh;
     height: auto;
   }
 
   /******************************* cirkler *************************/
 
   .element_1 img {
-    width: 60px;
+    width: 6vh;
     height: auto;
   }
 
@@ -213,7 +213,7 @@
 
   .element_2 img {
 
-    width: 150px;
+    width: 20vh;
     height: auto;
 
   }
