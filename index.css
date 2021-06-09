@@ -59,7 +59,7 @@
     font-family: "Source sans pro";
   }
 
-  #profil_billede img {
+  .profil_billede img {
     border: 7px solid white;
     width: 20%;
     height: auto;
@@ -192,7 +192,7 @@
     transform: rotate(-90deg);
   }
 
-  #profil_billede img {
+  .profil_billede img {
     border: 9px solid white;
     position: relative;
     top: 266px;
