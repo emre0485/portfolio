@@ -12,6 +12,7 @@
     color: white;
     font-family: monospace;
     font-weight: 600;
+    z-index: 1;
 
 }
 
@@ -19,7 +20,7 @@
     transition: transform 0.3s;
     transform-origin: top right;
     list-style-type: none;
-    
+    z-index: 1;
     position: fixed;
 
 }
