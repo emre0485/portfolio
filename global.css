@@ -60,6 +60,7 @@
     letter-spacing: 1px;
     font-size: 40px;
     line-height: 45px;
+    
   }
   .mellemnavn_mobil {
     display: none;
@@ -86,14 +87,17 @@
     position: fixed;
     top: 0;
     z-index: 99;
-    mix-blend-mode: difference;
+    /*mix-blend-mode: difference;*/
+    
   }
 
+  
   #header_container img {
     width: 50px;
     height: auto;
     position: fixed;
     top: 10px;
+    z-index: 2;
   }
 
   h1 {
@@ -123,6 +127,7 @@
     position: fixed;
     top: 68px;
     left: -38px;
+    z-index: 2;
   }
 
   .mellemnavn_mobil {

@@ -18,4 +18,5 @@ function toggleMenu() {
         document.querySelector("#menuknap").textContent = "x";
     }
 
+    document.querySelector("#menu").addEventListener("click", toggleMenu);
 }

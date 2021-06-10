@@ -12,28 +12,52 @@
     color: white;
     font-family: monospace;
     font-weight: 600;
-    z-index: 1;
+    z-index: 2;
 
 }
 
 #menu {
-    transition: transform 0.3s;
+    transition: transform 0.2s;
     transform-origin: top right;
     list-style-type: none;
     z-index: 1;
     position: fixed;
+    background-color: #0032ff;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
 
 }
+
 
 #menu a {
     margin-right: 40px;
     text-align: right;
+    color: white;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    position: relative;
+    
 
 }
 
 
+#liste_stil {
+    place-content: start;
+    grid-column: 2;
+
+}
+
 
 @media (min-width: 700px) {
+
+
 
 
     /*******menu*******/
@@ -43,7 +67,7 @@
         font-size: 4rem;
         color: white;
         font-family: monospace;
-  
+
 
     }
 
@@ -52,8 +76,15 @@
         opacity: 1;
     }
 
+    #menu {
+
+        display: none;
+    }
+
+
     main {
         margin-top: 40rem;
+
 
     }
 
