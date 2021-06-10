@@ -24,10 +24,11 @@
     grid-column: 2;
     font-size: 4vw;
     margin-top: 2vw;
-    align-content: space-around;
-    display: grid;
     font-family: "Josefin Sans";
-  }
+    text-align: start;
+    margin-top: 18vw;
+}
+
 
   #profil {
     display: grid;
@@ -54,7 +55,7 @@
     font-family: "Times New Roman", Times, serif;
     font-size: 3.3vw;
     position: relative;
-    left: 40vw;
+    left: 50vw;
   }
 
   .nummer {
@@ -93,6 +94,10 @@
     text-decoration: none;
     list-style-type: none;
     color: white;
+  }
+
+  #first_section a:hover{
+    background-color: #E44200;
   }
 }
 
@@ -158,6 +163,7 @@
     margin-bottom: 55vw;
   }
 
+
   .center {
     color: #e44200;
     font-size: 12vw;
@@ -167,6 +173,8 @@
     transform: translate(-50%, -50%);
     z-index: -1;
   }
+
+
 
   /**************************** menu **************************/
 
