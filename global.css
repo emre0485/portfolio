@@ -1,4 +1,3 @@
-
 @font-face {
   font-family: "Times New Roman";
   src: url(/font/times\ new\ roman.ttf) format(tiff);
@@ -7,130 +6,130 @@
 /********************************************************** COMPUTER VERSION ********************/
 
 @media (min-width: 700px) {
-    * {
-      box-sizing: border-box;
-    }
-  
-    a {
-      text-decoration: none;
-    }
-  
-    body {
-      isolation: isolate;
-      background-color: #0032ff;
-      margin-left: 110px;
-      margin-right: 110px;
-      overflow-x: hidden;
-    }
-  
-    /***** emre julius bash duraman ******/
-  
-    header {
-      position: fixed;
-      top: 0;
-      z-index: 99;
-      mix-blend-mode: difference;
-    }
-  
-    #header_container img {
-      width: 8%;
-      height: auto;
-      mix-blend-mode: difference;
-    }
-  
-    h1 {
-      color: white;
-      font-family: "Source sans pro";
-      font-weight: 900;
-      letter-spacing: 1px;
-      font-size: 4vw;
-      line-height: 4vw;
-      display: inline-block;
-    }
-  
-    .mellemnavn {
-      font-weight: 400;
-      font-family: "Source sans pro";
-    }
-  
-    h2 {
-      display: none;
-      color: white;
-      font-family: "Source sans pro";
-      font-weight: 900;
-      letter-spacing: 1px;
-      font-size: 40px;
-      line-height: 45px;
-    }
-    .mellemnavn_mobil {
-      display: none;
-      font-weight: 400;
-      font-family: "Source sans pro";
-    }
+  * {
+    box-sizing: border-box;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  body {
+    isolation: isolate;
+    background-color: #0032ff;
+    margin-left: 110px;
+    margin-right: 110px;
+    overflow-x: hidden;
+  }
+
+  /***** emre julius bash duraman ******/
+
+  header {
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    mix-blend-mode: difference;
+  }
+
+  #header_container img {
+    width: 8%;
+    height: auto;
+    mix-blend-mode: difference;
+  }
+
+  h1 {
+    color: white;
+    font-family: "Source sans pro";
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 4vw;
+    line-height: 4vw;
+    display: inline-block;
+  }
+
+  .mellemnavn {
+    font-weight: 400;
+    font-family: "Source sans pro";
+  }
+
+  h2 {
+    display: none;
+    color: white;
+    font-family: "Source sans pro";
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .mellemnavn_mobil {
+    display: none;
+    font-weight: 400;
+    font-family: "Source sans pro";
+  }
 }
 /********************************************************** COMPUTER VERSION SLUT ********************/
 /********************************************************** MOBIL VERSION ********************/
 
 @media (max-width: 700px) {
-    * {
-      box-sizing: border-box;
-    }
-  
-    body {
-      background-color: #0032ff;
-      isolation: isolate;
-    }
-  
-    /***** emre julius bash duraman ******/
-  
-    header {
-      position: fixed;
-      top: 0;
-      z-index: 99;
-      mix-blend-mode: difference;
-    }
-  
-    #header_container img {
-      width: 50px;
-      height: auto;
-      position: fixed;
-      top: 10px;
-    }
-  
-    h1 {
-      display: none;
-      color: white;
-      font-family: "Source sans pro";
-      font-weight: 900;
-      letter-spacing: 1px;
-      font-size: 4vw;
-      line-height: 45px;
-    }
-  
-    .mellemnavn {
-      display: none;
-      font-weight: 400;
-      font-family: "Source sans pro";
-    }
-  
-    h2 {
-      color: white;
-      font-family: "Source sans pro";
-      font-weight: 700;
-      letter-spacing: 1px;
-      font-size: 63px;
-      line-height: 45px;
-      transform: rotate(90deg);
-      position: fixed;
-      top: 68px;
-      left: -38px;
-    }
-  
-    .mellemnavn_mobil {
-      font-weight: 300;
-      font-family: "Source sans pro";
-      transform: rotate(-90deg);
-    }
-}  
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #0032ff;
+    isolation: isolate;
+  }
+
+  /***** emre julius bash duraman ******/
+
+  header {
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    mix-blend-mode: difference;
+  }
+
+  #header_container img {
+    width: 50px;
+    height: auto;
+    position: fixed;
+    top: 10px;
+  }
+
+  h1 {
+    display: none;
+    color: white;
+    font-family: "Source sans pro";
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 4vw;
+    line-height: 45px;
+  }
+
+  .mellemnavn {
+    display: none;
+    font-weight: 400;
+    font-family: "Source sans pro";
+  }
+
+  h2 {
+    color: white;
+    font-family: "Source sans pro";
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 63px;
+    line-height: 45px;
+    transform: rotate(90deg);
+    position: fixed;
+    top: 68px;
+    left: -38px;
+  }
+
+  .mellemnavn_mobil {
+    font-weight: 300;
+    font-family: "Source sans pro";
+    transform: rotate(-90deg);
+  }
+}
 
 /********************************************************** MOBIL VERSION SLUT ********************/
