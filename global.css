@@ -23,7 +23,7 @@
 }
 
 #menu {
-  transition: transform 0.2s;
+  transition: transform 0.5s;
   transform-origin: top right;
   list-style-type: none;
   z-index: 1;
@@ -95,12 +95,6 @@
     display: none;
 }
 
-
-main {
-    margin-top: 40rem;
-
-
-}
 
 /*******menu*******/
 

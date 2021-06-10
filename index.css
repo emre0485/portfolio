@@ -53,18 +53,21 @@
   }
 
  
-/* 
-  @keyframes rotate {
-    100% {
-      transform: rotate(360deg);
+
+  /* @keyframes rotate {
+    0% {
+      transform: rotateY(360deg);
     }
   }
 
-  .stjerne {
-    animation: 8s rotate infinite;
+  #portfolio {
+    animation: 10s rotate infinite;
     animation-timing-function: linear;
-    position: absolute;
+    transform-origin: 30%;
+    
   } */
+
+
 
   /******************************* footer **************************/
 
