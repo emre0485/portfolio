@@ -3,9 +3,107 @@
   src: url(/font/times\ new\ roman.ttf) format(tiff);
 }
 
+
+.hidden {
+
+  opacity: 0;
+  transform: translateX(+100%);
+}
+
+#menuknap {
+  display: inline-block;
+  right: 20px;
+  position: fixed;
+  font-size: 4rem;
+  color: white;
+  font-family: monospace;
+  font-weight: 600;
+  z-index: 2;
+
+}
+
+#menu {
+  transition: transform 0.2s;
+  transform-origin: top right;
+  list-style-type: none;
+  z-index: 1;
+  position: fixed;
+  background-color: #0032ff;
+  height: 200%;
+  width: 100%;
+  left: 0;
+  top: -20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 70px;
+  line-height: 100px;
+
+
+
+}
+
+
+#menu a {
+  margin-right: 40px;
+  text-align: right;
+  color: white;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  position: relative;
+  
+
+}
+
+#menu a:hover{
+  background-color: #E44200;
+}
+
+
+#liste_stil {
+  place-content: start;
+  grid-column: 2;
+
+}
+
+
+
+
 /********************************************************** COMPUTER VERSION ********************/
 
 @media (min-width: 700px) {
+
+
+  /*******menu*******/
+
+  #menuknap {
+    display: none;
+    font-size: 4rem;
+    color: white;
+    font-family: monospace;
+
+
+}
+
+#menu.hidden {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+#menu {
+
+    display: none;
+}
+
+
+main {
+    margin-top: 40rem;
+
+
+}
+
+/*******menu*******/
+
   * {
     box-sizing: border-box;
   }

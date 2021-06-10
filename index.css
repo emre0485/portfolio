@@ -1,3 +1,4 @@
+
 /********************************************************** COMPUTER VERSION ***************/
 
 @media (min-width: 700px) {
@@ -27,7 +28,7 @@
     font-family: "Josefin Sans";
     text-align: start;
     margin-top: 18vw;
-}
+  }
 
 
   #profil {
@@ -38,16 +39,38 @@
 
   #cirkel_stjerne img {
     height: auto;
-    width: 40%;
-    left: 40vw;
+    width: 95%;
     position: relative;
     top: -5vw;
   }
+
+  #cirkel_stjerne {
+
+    Grid-column: 2;
+    grid-row: 2;
+    padding: 10px;
+
+  }
+
+ 
+/* 
+  @keyframes rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .stjerne {
+    animation: 8s rotate infinite;
+    animation-timing-function: linear;
+    position: absolute;
+  } */
 
   /******************************* footer **************************/
 
   footer {
     color: white;
+    margin-top: -170px;
   }
 
   #footer_call {
@@ -96,7 +119,7 @@
     color: white;
   }
 
-  #first_section a:hover{
+  #first_section a:hover {
     background-color: #E44200;
   }
 }
