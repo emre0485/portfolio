@@ -175,6 +175,8 @@
         margin-top: 20rem;
     }
 
+    
+
 
 }
 
@@ -233,8 +235,10 @@
 
     p {
 
-        grid-column: 2;
+        text-align: justify;
         color: white;
+        margin-left: 2vw;
+        margin-right: 2vw;
 
     }
 
@@ -246,6 +250,7 @@
         mix-blend-mode: color-dodge;
 
     }
+
 
 
 }
