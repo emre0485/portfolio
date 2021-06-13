@@ -45,13 +45,13 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 2rem;
     position: relative;
-    
+
 
 }
 
-#menu a:hover{
+#menu a:hover {
     background-color: #E44200;
-  }
+}
 
 
 #liste_stil {
@@ -67,7 +67,7 @@
 
     /*overskrift*/
 
-    #portfolio p{
+    #portfolio p {
 
         color: #E44200;
         font-family: "Source sans pro";
@@ -80,16 +80,16 @@
 
     @keyframes rotate {
         0% {
-          transform: rotateY(360deg);
+            transform: rotateY(360deg);
         }
-      }
-    
-      #portfolio {
+    }
+
+    #portfolio {
         animation: 15s rotate infinite;
         animation-timing-function: linear;
         transform-origin: center;
-        
-      }
+
+    }
 
     /*******menu*******/
 
@@ -118,6 +118,36 @@
 
 
     }
+
+    
+
+    #menu_computer ul a {
+
+        color: #E44200;
+        font-size: clamp(0.5rem, 1.5rem, 3rem);
+        font-family: monospace;
+     
+    }
+
+    #menu_computer ul {
+        justify-content: space-between;
+        display: flex;
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    #menu_computer li {
+      
+        display: flex;
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+   #menu_computer a:hover {
+
+        background-color:  white;
+    }
+
 
     /*******menu*******/
 
@@ -170,12 +200,13 @@
 
         margin-top: 20rem;
     }
+
     #first_section {
 
         margin-top: 20rem;
     }
 
-    
+
 
 
 }
@@ -186,9 +217,13 @@
 
 @media (max-width: 700px) {
 
+    #menu_computer {
+        display: none;
+    }
+
     /*overskrift*/
 
-    #portfolio p{
+    #portfolio p {
 
         color: #E44200;
         font-family: "Source sans pro";
@@ -201,16 +236,16 @@
 
     @keyframes rotate {
         0% {
-          transform: rotateY(360deg);
+            transform: rotateY(360deg);
         }
-      }
-    
-      #portfolio {
+    }
+
+    #portfolio {
         animation: 15s rotate infinite;
         animation-timing-function: linear;
         transform-origin: center;
-        
-      }
+
+    }
 
     h3 {
 
