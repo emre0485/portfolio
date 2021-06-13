@@ -119,14 +119,14 @@
 
     }
 
-    
+
 
     #menu_computer ul a {
 
         color: #E44200;
         font-size: clamp(0.5rem, 1.5rem, 3rem);
         font-family: monospace;
-     
+
     }
 
     #menu_computer ul {
@@ -137,15 +137,15 @@
     }
 
     #menu_computer li {
-      
+
         display: flex;
         text-decoration: none;
         list-style-type: none;
     }
 
-   #menu_computer a:hover {
+    #menu_computer a:hover {
 
-        background-color:  white;
+        background-color: white;
     }
 
 
@@ -204,6 +204,31 @@
     #first_section {
 
         margin-top: 20rem;
+    }
+
+
+    .section_wrapper2 {
+        display: grid;
+    }
+
+    .section_wrapper2 img {
+        height: auto;
+        width: 50%;
+        align-self: center;
+        justify-self: center;
+        display: grid;
+    }
+
+    .section_wrapper2 p {
+        grid-column: 1;
+        display: grid;
+        text-align: justify;
+    }
+
+    #wire_kill img{
+        height: auto;
+        width: 100%;
+        border: 9px solid white;
     }
 
 
@@ -286,6 +311,15 @@
 
     }
 
-
+    .section_wrapper2 img {
+        height: auto;
+        width: 100%;
+    }
+    #wire_kill img{
+        height: auto;
+        width: 100%;
+        border: 9px solid white;
+    }
+  
 
 }
