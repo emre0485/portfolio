@@ -1,8 +1,59 @@
+#about_section {
 
-
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20rem;
+}
 
 img {
 
     height: auto;
     width: 40%;
 }
+
+
+
+  /******************************* footer **************************/
+
+  footer {
+    color: white;
+    margin-top: -170px;
+  }
+
+  #footer_call {
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 3.3vw;
+    position: relative;
+    left: 50vw;
+  }
+
+  .nummer {
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 1000;
+    letter-spacing: 1px;
+    font-size: 4.3vw;
+  }
+
+  #footer_signatur img {
+    width: 33%;
+    height: auto;
+  }
+
+  #footer_signatur {
+    position: relative;
+    text-align: center;
+    right: 29vw;
+    top: 15vw;
+  }
+
+  .center {
+    color: #e44200;
+    font-size: 3.4vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
