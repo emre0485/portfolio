@@ -81,6 +81,7 @@ iframe {
 
 }
 
+/***********************************COMPUTER****************/
 
 @media (min-width: 700px) {
 
@@ -253,6 +254,22 @@ iframe {
         border: 9px solid white;
     }
 
+ 
+
+    .fotos {
+        display: inline-grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+
+
+    }
+
+    .fotos img{
+
+        height: auto;
+        width: 100%;
+    }
+
 
 
 }
@@ -343,5 +360,18 @@ iframe {
         border: 9px solid white;
     }
 
+    .fotos {
+        display: inline-grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+
+
+    }
+
+    .fotos img{
+
+        height: auto;
+        width: 100%;
+    }
 
 }
