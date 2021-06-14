@@ -427,9 +427,10 @@ iframe {
     color: white;
     margin-top: 100vw;
     display: grid;
+    text-align: center;
   }
 
-  #footer_call {
+  #footer_call p{
     color: white;
     font-family: "Times New Roman", Times, serif;
     font-weight: 100;
@@ -437,6 +438,7 @@ iframe {
     font-size: 9vw;
     display: inline-block;
     text-align: center;
+
   }
 
   .nummer {
