@@ -11,7 +11,32 @@ img {
     width: 40%;
 }
 
+@media (min-width: 700px) {
 
+
+    #portfolio p {
+
+        color: #E44200;
+        font-family: "Source sans pro";
+        font-weight: 900;
+        letter-spacing: 1px;
+        font-size: 13vw;
+        text-align: center;
+
+    }
+
+    @keyframes rotate {
+        0% {
+            transform: rotateY(360deg);
+        }
+    }
+
+    #portfolio {
+        animation: 15s rotate infinite;
+        animation-timing-function: linear;
+        transform-origin: center;
+
+    }
 
   /******************************* footer **************************/
 
@@ -57,3 +82,36 @@ img {
     transform: translate(-50%, -50%);
     z-index: -1;
   }
+
+}
+
+
+@media (max-width:700px) {
+
+
+
+
+    #portfolio p {
+
+        color: #E44200;
+        font-family: "Source sans pro";
+        font-weight: 900;
+        letter-spacing: 1px;
+        font-size: 13vw;
+        text-align: center;
+
+    }
+
+    @keyframes rotate {
+        0% {
+            transform: rotateY(360deg);
+        }
+    }
+
+    #portfolio {
+        animation: 15s rotate infinite;
+        animation-timing-function: linear;
+        transform-origin: center;
+
+    }
+}

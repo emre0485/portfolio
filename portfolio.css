@@ -121,7 +121,7 @@ iframe {
         font-size: 4rem;
         color: white;
         font-family: "Source Sans Pro";
-   
+
 
 
     }
@@ -138,7 +138,7 @@ iframe {
 
 
     main {
-        margin-top: 5rem;
+        margin-top: 19rem;
 
 
     }
@@ -147,9 +147,10 @@ iframe {
 
     #menu_computer ul a {
 
-        color: #E44200;
+        color: white;
         font-size: clamp(0.5rem, 1.5rem, 3rem);
-        font-family: monospace;
+        font-family: "Inter";
+        font-weight: 400;
 
     }
 
@@ -158,6 +159,7 @@ iframe {
         display: flex;
         text-decoration: none;
         list-style-type: none;
+        margin-top: 20vw;
     }
 
     #menu_computer li {
@@ -169,7 +171,7 @@ iframe {
 
     #menu_computer a:hover {
 
-        background-color: white;
+        background-color: #E44200;
     }
 
 
@@ -217,6 +219,8 @@ iframe {
         grid-column: 2;
         color: white;
         text-align: justify;
+        font-family: "Inter";
+        line-height: 26px;
 
 
     }
@@ -251,13 +255,26 @@ iframe {
         text-align: justify;
     }
 
+
+    .section_wrapper3 {
+        display: inline-grid;
+        grid-template-columns: 40% 60%;
+    }
+
+    .col_fotos {
+        grid-column: 1;
+        padding: 20px;
+
+    }
+
+
     #wire_kill img {
         height: auto;
         width: 100%;
         border: 9px solid white;
     }
 
- 
+
 
     .fotos {
         display: inline-grid;
@@ -267,7 +284,7 @@ iframe {
 
     }
 
-    .fotos img{
+    .fotos img {
 
         height: auto;
         width: 100%;
@@ -275,48 +292,51 @@ iframe {
 
     /******************************* footer **************************/
 
-  footer {
-    color: white;
-    margin-top: -170px;
-  }
+    footer {
+        color: white;
+        margin-top: -170px;
+    }
 
-  #footer_call {
-    color: white;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 3.3vw;
-    position: relative;
-    left: 50vw;
-  }
+    #footer_call p {
+        color: white;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 3.3vw;
+        position: relative;
+        left: 50vw;
+        line-height: normal;
 
-  .nummer {
-    color: white;
-    font-family: "Times New Roman", Times, serif;
-    font-weight: 1000;
-    letter-spacing: 1px;
-    font-size: 4.3vw;
-  }
+    }
 
-  #footer_signatur img {
-    width: 33%;
-    height: auto;
-  }
 
-  #footer_signatur {
-    position: relative;
-    text-align: center;
-    right: 29vw;
-    top: 15vw;
-  }
+    .nummer {
+        color: white;
+        font-family: "Times New Roman", Times, serif;
+        font-weight: 1000;
+        letter-spacing: 1px;
+        font-size: 4.3vw;
+    }
 
-  .center {
-    color: #e44200;
-    font-size: 3.4vw;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: -1;
-  }
+    #footer_signatur img {
+        width: 33%;
+        height: auto;
+    }
+
+    #footer_signatur {
+        position: relative;
+        text-align: center;
+        right: 29vw;
+        top: 15vw;
+    }
+
+    .center {
+        color: #e44200;
+        font-size: 3.4vw;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+    }
 
 
 
@@ -364,7 +384,7 @@ iframe {
         font-family: "Josefin Sans";
         font-weight: 600;
         letter-spacing: 1px;
-        line-height: 100px;
+        line-height: 50px;
         font-size: 4vw;
         text-align: center;
 
@@ -385,6 +405,9 @@ iframe {
         color: white;
         margin-left: 2vw;
         margin-right: 2vw;
+        font-family: "Inter";
+        line-height: 26px;
+
 
     }
 
@@ -416,7 +439,7 @@ iframe {
 
     }
 
-    .fotos img{
+    .fotos img {
         padding: 2vw;
         height: auto;
         width: 100%;
@@ -425,54 +448,55 @@ iframe {
 
     /******************************* footer **************************/
 
-  footer {
-    color: white;
-    margin-top: 100vw;
-    display: grid;
-    text-align: center;
-  }
+    footer {
+        color: white;
+        margin-top: 100vw;
+        display: grid;
+        text-align: center;
+    }
 
-  #footer_call p{
-    color: white;
-    font-family: "Times New Roman", Times, serif;
-    font-weight: 100;
-    letter-spacing: 1px;
-    font-size: 9vw;
-    display: inline-block;
-    text-align: center;
+    #footer_call p {
+        color: white;
+        font-family: "Times New Roman", Times, serif;
+        font-weight: 100;
+        letter-spacing: 1px;
+        font-size: 9vw;
+        display: inline-block;
+        text-align: center;
+        line-height: normal;
 
-  }
+    }
 
-  .nummer {
-    color: white;
-    font-family: "Times New Roman", Times, serif;
-    font-weight: 1000;
-    letter-spacing: 5px;
-    font-size: 10vw;
-    display: inline-block;
-  }
+    .nummer {
+        color: white;
+        font-family: "Times New Roman", Times, serif;
+        font-weight: 1000;
+        letter-spacing: 5px;
+        font-size: 10vw;
+        display: inline-block;
+    }
 
-  #footer_signatur img {
-    width: 100%;
-    height: auto;
-  }
+    #footer_signatur img {
+        width: 100%;
+        height: auto;
+    }
 
-  #footer_signatur {
-    position: relative;
-    text-align: center;
-    margin-bottom: 55vw;
-  }
+    #footer_signatur {
+        position: relative;
+        text-align: center;
+        margin-bottom: 55vw;
+    }
 
 
-  .center {
-    color: #e44200;
-    font-size: 12vw;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: -1;
-  }
+    .center {
+        color: #e44200;
+        font-size: 12vw;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+    }
 
 
 }
