@@ -329,7 +329,7 @@ iframe {
     .nummer {
         color: white;
         font-family: "Times New Roman", Times, serif;
-        font-weight: 1000;
+        font-weight: 900;
         letter-spacing: 1px;
         font-size: 4.3vw;
     }
@@ -490,7 +490,7 @@ iframe {
     .nummer {
         color: white;
         font-family: "Times New Roman", Times, serif;
-        font-weight: 1000;
+        font-weight: 900;
         letter-spacing: 5px;
         font-size: 10vw;
         display: inline-block;
