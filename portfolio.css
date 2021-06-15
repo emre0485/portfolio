@@ -5,7 +5,7 @@ body {
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
 
 .iframe_wrapper {
@@ -156,7 +156,7 @@ iframe {
         font-size: clamp(0.5rem, 1.5rem, 3rem);
         font-family: "Inter";
         font-weight: 400;
-  
+
 
     }
 
@@ -269,7 +269,7 @@ iframe {
         display: flex;
     }
 
- 
+
 
     .col_fotos {
         height: auto;
@@ -350,6 +350,7 @@ iframe {
         transform: translate(-50%, -50%);
         z-index: -1;
     }
+
 
 
 
