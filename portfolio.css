@@ -276,7 +276,9 @@ iframe {
     .col_fotos {
         height: auto;
         width: 100%;
-        padding: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 2vw;
 
     }
 
@@ -514,5 +516,11 @@ iframe {
         z-index: -1;
     }
 
+    .col_fotos {
+        height: auto;
+        width: 100%;
+        padding: 2vw;
+
+    }
 
 }
