@@ -228,6 +228,7 @@ iframe {
         grid-column: 2;
         color: white;
         text-align: justify;
+        word-wrap: break-word;
         font-family: "Inter";
         line-height: 26px;
 
@@ -425,6 +426,7 @@ iframe {
         margin-right: 2vw;
         font-family: "Inter";
         line-height: 26px;
+        word-wrap: break-word;
 
 
     }
