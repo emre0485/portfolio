@@ -8,6 +8,7 @@
     text-align: justify;
     font-family: "Inter";
     line-height: 26px;
+    margin-bottom: 10rem;
 }
 
 #about_section img {
@@ -110,6 +111,7 @@
         line-height: 26px;
         margin-left: 2vw;
         margin-right: 2vw;
+        
     }
 
     #portfolio p {
